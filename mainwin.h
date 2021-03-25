@@ -17,6 +17,8 @@ public:
 
 private slots:
     void on_Input_1_textChanged();
+protected:
+   virtual void mouseMoveEvent(QMouseEvent *);
 
 private:
     Ui::MainWin *ui;
