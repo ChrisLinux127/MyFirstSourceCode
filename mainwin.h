@@ -15,6 +15,9 @@ public:
     MainWin(QWidget *parent = nullptr);
     ~MainWin();
 
+private slots:
+    void on_Input_1_textChanged();
+
 private:
     Ui::MainWin *ui;
 };

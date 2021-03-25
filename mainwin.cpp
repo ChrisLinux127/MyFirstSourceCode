@@ -13,3 +13,8 @@ MainWin::~MainWin()
     delete ui;
 }
 
+
+void MainWin::on_Input_1_textChanged()
+{
+
+}
