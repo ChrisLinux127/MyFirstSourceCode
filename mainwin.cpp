@@ -26,6 +26,7 @@ void MainWin:: mouseMoveEvent(QMouseEvent *e)
     qDebug()<<"BEWEGUNG ERKANN! Position der Mouse X: "<<x<<" y: "<<y;
     if(ui->listWidget->count()==100){
         ui->listWidget->clear();
+        ui->Input_1->setPlainText("Liste volll!");
     }
   }
 
