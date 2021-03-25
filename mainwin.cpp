@@ -21,4 +21,6 @@ void MainWin::on_Input_1_textChanged()
     QString str;
     str=ui->Input_1->toPlainText();
     qDebug()<<str;
+    ui->listWidget->addItem("Test");
+    ui->listWidget->addItem(str);
 }

@@ -17,10 +17,40 @@
    <widget class="QTextEdit" name="Input_1">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>230</y>
-      <width>231</width>
-      <height>51</height>
+      <x>220</x>
+      <y>220</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>330</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Input_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>220</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Input_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>220</y>
+      <width>41</width>
+      <height>31</height>
      </rect>
     </property>
    </widget>
